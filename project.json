@@ -1,0 +1,19 @@
+{
+  "name": "comprehensive-fishkeeping-website-v2",
+  "framework": "nextjs",
+  "scripts": {
+    "build": "pnpm build",
+    "start": "pnpm start"
+  },
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next",
+      "config": { "distDir": ".next" }
+    }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "/$1" }
+  ]
+}
+

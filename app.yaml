@@ -1,0 +1,18 @@
+runtime: nodejs
+env: flex
+
+# Optional: Specify Node.js version
+# runtime_config:
+#   operating_system: "ubuntu22"
+#   runtime_version: "20"
+
+handlers:
+  # Serve all static files with URLs ending in a file extension
+  - url: /.*
+    script: auto
+    secure: always
+
+# Optional: Add environment variables
+# env_variables:
+#   MY_ENV_VAR: "my_value"
+
