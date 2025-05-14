@@ -1,7 +1,9 @@
 {
-  "name": "next-template",
-  "version": "0.0.2",
-  "private": true,
+  "name": "fish-guide",
+  "version": "1.0.0",
+  "private": false,
+  "license": "MIT",
+  "description": "一个全面的鱼类养殖指南网站",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
